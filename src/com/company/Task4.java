@@ -5,16 +5,17 @@ public class Task4
 {
     public static void main(String[] args)
     {
-        String choose,rabbit;
+        String choose,choose1;
         Scanner num = new Scanner(System.in);
         System.out.println("Виберіть слово: 'Погодитись','Відмовитись'");
         choose = num.nextLine();
-        System.out.println("Якщо ви вибрали слово 'Погодитись' виберіть: 'Так','ОК','Yes','Y','+','Ok'; або 'Ні','NO','N','-','No' якщо ви вибрали 'Відмовитись'");
-        rabbit = num.nextLine();
+        System.out.println("Якщо ви вибрали слово 'Погодитись' виберіть: 'Так','ОК','Yes','Y','+','Ok'");
+        System.out.println("Якщо ви вибрали слово 'Відмовитись' виберіть: 'Ні','NO','N','-','No'");
+        choose1 = num.nextLine();
         switch (choose)
         {
             case"Погодитись":
-                switch (rabbit){
+                switch (choose1){
                     case "Так":
                         System.out.println("Я погоджуюсь!");
                         break;
@@ -35,7 +36,7 @@ public class Task4
                         break;
                 }
             case"Відмовитись":
-                switch (rabbit){
+                switch (choose1){
                     case"Ні":
                         System.out.println("Я відмовляюсь!");
                         break;

@@ -17,28 +17,28 @@ public class Task3
             if(flour==1){
                 System.out.println("Ви спустились на 1 поверх");
             }
-            if(flour==2){
+            else if(flour==2){
                 System.out.println("Ви спустились на 1 поверх");
             }
-            if(flour==3){
+            else if(flour==3){
             System.out.println("Ви спустились на 3 поверх");
             }
-            if(flour==4){
+            else if(flour==4){
                 System.out.println("Ви спустились на 4 поверх");
             }
-            if(flour==5){
+            else if(flour==5){
                 System.out.println("Ви спустились на 5 поверх");
             }
-            if(flour==6){
+            else if(flour==6){
                 System.out.println("Ви спустились на 6 поверх");
             }
-            if(flour==7){
+            else if(flour==7){
                 System.out.println("Ви спустились на 7 поверх");
             }
-            if(flour==8){
+            else if(flour==8){
                 System.out.println("Ви спустились на 8 поверх");
             }
-            if(flour==9){
+            else if(flour==9){
                 System.out.println("Ви спустились на 9 поверх");
             }
 
@@ -48,28 +48,28 @@ public class Task3
             if(flour==1){
                 System.out.println("Ви піднялись на 1 поверх");
             }
-            if(flour==2){
+            else if(flour==2){
                 System.out.println("Ви піднялись на 3 поверх");
             }
-            if(flour==3){
+            else if(flour==3){
                 System.out.println("Ви піднялись на 3 поверх");
             }
-            if(flour==4){
+            else if(flour==4){
                 System.out.println("Ви піднялись на 4 поверх");
             }
-            if(flour==5){
+            else if(flour==5){
                 System.out.println("Ви піднялись на 5 поверх");
             }
-            if(flour==6){
+            else if(flour==6){
                 System.out.println("Ви піднялись на 6 поверх");
             }
-            if(flour==7){
+            else if(flour==7){
                 System.out.println("Ви піднялись на 7 поверх");
             }
-            if(flour==8){
+            else if(flour==8){
                 System.out.println("Ви піднялись на 8 поверх");
             }
-            if(flour==9){
+            else if(flour==9){
                 System.out.println("Ви піднялись на 9 поверх");
             }
 
